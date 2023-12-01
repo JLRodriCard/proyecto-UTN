@@ -67,6 +67,9 @@ const Cotizadorpage = (props) => {
 
                 </form>
 
+                {sending ? <p>Enviando correo... </p> : null}
+                {msg ? <p>{msg}</p> : null}
+
             </div>
             <div className="datos">
                 <h2> Otras vias de comunicación</h2>
