@@ -667,7 +667,7 @@ input{
   border-color: #0b0b0b;
   border-bottom: #0b0b0b;
   border-width: 2px;
-  background-image: url(../public/imagenes/img_4002_0.jpg);
+  background-image: url(../public/imagenes/depositos2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top:2px;
@@ -675,12 +675,38 @@ input{
   padding-right: 2px;
   padding-bottom: 2px;
   border-style: solid;
+  align-items: center;
+  text-align: center;
+  
 
 
   
 
 }
 
+
+.fotos_novedad {
+  width: 300px; 
+  height: 200px;
+  border-radius: 35px;
+  margin-left: 0;
+  border: #6c0125;
+  border-style: solid;
+  border-width: 2px;
+
+} 
+
+.titulo_novedad{
+  color: rgb(0, 0, 0);font-size: 30px;
+}
+.desarrollo_novedad {
+  color: rgb(11, 1, 0);font-size: 25px;
+}
+
+.subtitulo_novedad{
+
+color: #0b0b0b;
+}
 /* FIN ESTILOS COTIZADOR/CONTACTO*/
 
 
