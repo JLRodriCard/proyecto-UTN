@@ -646,7 +646,9 @@ input{
 }
 
 .novedad_nosotros {
-  background-color: rgb(12, 228, 167) ; 
+  background-image: url(../public/imagenes/camion_ruta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   
 }

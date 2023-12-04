@@ -1,6 +1,6 @@
 import React from 'react';
 
-const novedaditem = (props) => {
+const Novedadesitem = (props) => {
     const { title, subtitle, imagen, body } = props;
 
     //ver novedades//
@@ -9,11 +9,11 @@ const novedaditem = (props) => {
         <div className="novedades">
             <h1>{title}</h1>
             <h2>{subtitle}</h2>
-            <img scr={imagen} />
+            <img scr={imagen}/>
             <div dangerouslySetInnerHTML={{ __html: body }} />
             <hr />
         </div>
     );
 }
 
-export default novedaditem;
+export default Novedadesitem;
